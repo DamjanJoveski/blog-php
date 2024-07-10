@@ -1,0 +1,14 @@
+-- CREATE TABLE users (
+--     u_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     username VARCHAR(30) NOT NULL,
+--     email VARCHAR(255) NOT NULL,
+--     pw VARCHAR(255) NOT NULL
+-- );
+
+-- CREATE TABLE blogs (
+--     b_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+--     title VARCHAR(255) NOT NULL,
+--     content TEXT NOT NULL,
+--     author_id INT NOT NULL,
+--     FOREIGN KEY (author_id) REFERENCES users(u_id)
+-- );
